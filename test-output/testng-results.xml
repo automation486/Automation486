@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27278" started-at="2017-04-25T02:34:02Z" finished-at="2017-04-25T02:34:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27278" started-at="2017-04-25T02:34:02Z" finished-at="2017-04-25T02:34:30Z">
+      <class name="testcases.VerifyLoginPageWithReports1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.VerifyLoginPageWithReports1@cb5822]" name="setUp" is-config="true" duration-ms="16000" started-at="2017-04-24T22:34:02Z" finished-at="2017-04-24T22:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:testcases.VerifyLoginPageWithReports1@cb5822]" name="testHomePage" duration-ms="10147" started-at="2017-04-24T22:34:18Z" finished-at="2017-04-24T22:34:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.VerifyLoginPageWithReports1@cb5822]" name="tearDown" is-config="true" duration-ms="383" started-at="2017-04-24T22:34:28Z" finished-at="2017-04-24T22:34:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePage status=SUCCESS method=VerifyLoginPageWithReports1.testHomePage()[pri:0, instance:testcases.VerifyLoginPageWithReports1@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testClose()[pri:0, instance:testcases.VerifyLoginPageWithReports1@cb5822]" name="testClose" is-config="true" duration-ms="720" started-at="2017-04-24T22:34:29Z" finished-at="2017-04-24T22:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClose -->
+      </class> <!-- testcases.VerifyLoginPageWithReports1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
